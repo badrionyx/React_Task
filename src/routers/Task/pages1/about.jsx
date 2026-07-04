@@ -1,6 +1,7 @@
 export let MyAbout = () => {
-  return;
-  <>
-    <H1>this is about</H1>
-  </>;
+  return (
+    <>
+      <h1>this is about</h1>
+    </>
+  );
 };

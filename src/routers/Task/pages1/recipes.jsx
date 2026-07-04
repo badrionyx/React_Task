@@ -1,7 +1,10 @@
-export let MyRecipes = () => {
-  return;
+import { RecipeList } from "../components1/recipeList";
 
-  <>
-    <h1>This is Recipes</h1>
-  </>;
+export let MyRecipes = () => {
+  return (
+    <>
+      <h1>Our Recipes</h1>
+      <RecipeList />
+    </>
+  );
 };

@@ -4,25 +4,26 @@ import { MyRecipes } from "../pages1/recipes";
 import { MyAbout } from "../pages1/about";
 
 function Restaurant() {
-  return;
-  <>
-    <BrowserRouter>
-      <Myheader>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <MyRecipes /> <MyAbout />
-              </>
-            }
-          />
-          <Route path="recipes" element=<MyRecipes /> />
-          <Route path="about" element=<MyAbout /> />
-        </Routes>
-      </Myheader>
-    </BrowserRouter>
-  </>;
+  return (
+    <>
+      <BrowserRouter>
+        <Myheader/>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <MyRecipes /> <MyAbout />
+                </>
+              }
+            />
+            <Route path="recipes" element=<MyRecipes /> />
+            <Route path="about" element=<MyAbout /> />
+          </Routes>
+        
+      </BrowserRouter>
+    </>
+  );
 }
 
 export default Restaurant;
