@@ -1,0 +1,160 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+#########################################
+# Operating System
+#########################################
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+#########################################
+# IDEs
+#########################################
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+
+#########################################
+# Java / Maven
+#########################################
+
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven Wrapper (keep these)
+!.mvn/wrapper/maven-wrapper.jar
+!mvnw
+!mvnw.cmd
+
+#########################################
+# Gradle
+#########################################
+
+.gradle/
+build/
+
+#########################################
+# Node.js / React / Vite
+#########################################
+
+node_modules/
+dist/
+coverage/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+#########################################
+# Environment Variables
+#########################################
+
+.env
+.env.*
+!.env.example
+
+#########################################
+# Logs
+#########################################
+
+logs/
+*.log
+
+#########################################
+# Database
+#########################################
+
+*.db
+*.sqlite
+*.sqlite3
+
+#########################################
+# Uploaded Files
+#########################################
+
+uploads/
+temp/
+tmp/
+
+#########################################
+# Compressed Files
+#########################################
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+#########################################
+# Build Outputs
+#########################################
+
+bin/
+release/
+debug/
+
+#########################################
+# Test Reports
+#########################################
+
+coverage/
+reports/
+
+#########################################
+# Miscellaneous
+#########################################
+
+*.bak
+*.tmp
+*.swp
+*.swo
+
+#########################################
+# Mac & Linux
+#########################################
+
+.Trashes
+.fseventsd
