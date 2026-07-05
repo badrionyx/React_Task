@@ -4,6 +4,7 @@ import { MyRecipes } from "../pages1/recipes";
 import { MyAbout } from "../pages1/about";
 import { MyHome } from "../pages1/home";
 import { RecipeDetails } from "./recipeDetails";
+import { Footer } from "./footer";
 
 function Restaurant() {
   return (
@@ -16,6 +17,7 @@ function Restaurant() {
           <Route path="recipes/:id" element={<RecipeDetails />} />
           <Route path="about" element={<MyAbout />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );

@@ -2,10 +2,9 @@ import { useParams, Link } from "react-router-dom";
 import { recipes } from "../data1/recipes";
 
 export let RecipeDetails = () => {
-  const { id } = useParams();                       // 👈 reads ":id" from the URL
+  const { id } = useParams();                     
   const recipe = recipes.find((r) => r.id === Number(id));
 
-  // If someone visits a bad id like /recipes/999
   if (!recipe) {
     return (
       <div className="recipe-details">
