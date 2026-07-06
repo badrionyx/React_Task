@@ -1,7 +1,2 @@
-export let BaEcnomics = () => {
-  return (
-    <>
-      <h1>ECNOMICS STUDENTS</h1>
-    </>
-  );
-};
+import { CourseDetail } from "../component2/CourseDetails";
+export let BaEcnomics = () => <CourseDetail id="baEcnomics" />;

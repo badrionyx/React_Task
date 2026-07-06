@@ -8,18 +8,16 @@ import { Footer } from "./footer";
 
 function Restaurant() {
   return (
-    <>
-      <BrowserRouter>
-        <Myheader />
-        <Routes>
-          <Route path="/" element={<MyHome />} />
-          <Route path="recipes" element={<MyRecipes />} />
-          <Route path="recipes/:id" element={<RecipeDetails />} />
-          <Route path="about" element={<MyAbout />} />
-        </Routes>
-        <Footer/>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Myheader />
+      <Routes>
+        <Route path="/" element={<MyHome />} />
+        <Route path="recipes" element={<MyRecipes />} />
+        <Route path="recipes/:id" element={<RecipeDetails />} />
+        <Route path="about" element={<MyAbout />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

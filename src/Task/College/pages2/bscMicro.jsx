@@ -1,7 +1,2 @@
-export let BscMicro = () => {
-  return (
-    <>
-      <h1>BSC MICRO-BIOLOGY</h1>
-    </>
-  );
-};
+import { CourseDetail } from "../component2/CourseDetails";
+export let BscMicro = () => <CourseDetail id="bscMicro" />;
