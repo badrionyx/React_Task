@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;;
+    box-sizing: border-box;
+}
+
+#college{
+    background-color: greenyellow;
+    height: 80px;
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.head1 {
+  background-color: burlywood;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.morng{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+}
