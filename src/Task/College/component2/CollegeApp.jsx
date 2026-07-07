@@ -1,5 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Home } from "./home";
 import { Myheader } from "./header";
+import { MorngShift } from "./MorngShift";
+import { EvengShift } from "./EvengShift";
 import { Bba } from "../pages2/bba";
 import { Bca } from "../pages2/bca";
 import { BscMaths } from "../pages2/bscMaths";
@@ -8,9 +11,6 @@ import { BcomComputer } from "../pages2/bcomComputer";
 import { BcomCorporate } from "../pages2/bcomCorporate";
 import { BscDataScience } from "../pages2/bscDataScience";
 import { BscMicro } from "../pages2/bscMicro";
-import { Home } from "./home";
-import { MorngShift } from "./MorngShift";
-import { EvengShift } from "./EvengShift";
 import { Myfooter } from "./footer";
 
 function College() {

@@ -1,9 +1,3 @@
-// -------------------------------------------------------------
-// Single source of truth for every course.
-// To move a course between shifts, just change its `shift` value
-// to "morning" or "evening". The `id` MUST match the route path
-// used in CollegeApp.jsx and the links in the shift pages.
-// -------------------------------------------------------------
 
 export const courses = [
   // ---------------- MORNING SHIFT ----------------
