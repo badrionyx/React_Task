@@ -67,6 +67,56 @@ a {
   border-color: #0f766e;
 }
 
+.search-box {
+  width: 100%;
+  max-width: 420px;
+  padding: 12px 16px;
+  margin-bottom: 24px;
+  font-size: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 999px;
+  outline: none;
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+.search-box:focus {
+  border-color: #0f766e;
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.15);
+}
+.no-results {
+  color: #6b7280;
+  font-size: 15px;
+  padding: 12px 0;
+}
+
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.chip {
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.chip:hover {
+  border-color: #0f766e;
+  color: #0f766e;
+}
+.chip.active {
+  background: #0f766e;
+  border-color: #0f766e;
+  color: #fff;
+}
+
 .head1 {
   display: flex;
   align-items: center;

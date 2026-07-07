@@ -78,6 +78,7 @@ export const courses = [
       "Live client-style projects",
     ],
   },
+  
   {
     id: "bba",
     name: "BBA (Business Administration)",

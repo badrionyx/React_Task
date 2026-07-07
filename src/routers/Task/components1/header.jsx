@@ -4,7 +4,7 @@ export let Myheader = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="brand">
-        Bidda Restaurant 🍛
+        Badri Restaurant 🍛
       </Link>
       <div className="nav-links">
         <Link to="/">HOME</Link>
