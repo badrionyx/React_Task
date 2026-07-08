@@ -22,8 +22,8 @@ export let ShiftPage = ({ shift }) => {
   const courses = allCourses.filter((course) => {
     let matched =
       term === "" ||
-      clean(course.name).include(term) ||
-      clean(course.dept).include(term);
+      clean(course.name).includes(term) ||
+      clean(course.dept).includes(term);
 
     let matchDept = dept === "All" || course.dept === dept;
 
